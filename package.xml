@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>FreeCAD-SmartSnap</name>
+  <description>Blender-like hold-to-snap helper for FreeCAD Sketcher. Hold Shift by default to project external vertices and edges as parametric reference geometry and use native Sketcher snapping.</description>
+  <version>0.1.0</version>
+  <date>2026-10-14</date>
+  <maintainer>Eddy-dev0</maintainer>
+  <author>Eddy-dev0</author>
+  <license>LGPL-2.1-or-later</license>
+  <url type="repository" branch="main">https://github.com/Eddy-dev0/FreeCAD-SmartSnap</url>
+  <url type="bugtracker">https://github.com/Eddy-dev0/FreeCAD-SmartSnap/issues</url>
+  <url type="readme">https://github.com/Eddy-dev0/FreeCAD-SmartSnap/blob/main/README.md</url>
+  <pythonmin>3.10</pythonmin>
+  <content>
+    <workbench>
+      <name>SmartSnap</name>
+      <subdirectory>./</subdirectory>
+      <classname>SmartSnapWorkbench</classname>
+    </workbench>
+  </content>
+</package>
